@@ -41,7 +41,6 @@ print("\nIterazione sulle chiavi")
 for k in d.keys():
     print("Chaive ", k)
 
-
 print("\nCopy")
 d1 = d.copy() #copia superficiale shallow
 print("Copia dict ", d1)
