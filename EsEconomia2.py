@@ -1,3 +1,4 @@
+#[AUTHOR]Serena D'Urso
 #[TRCCIA]Creare un array di 20 numeri casuali. Creare una funzione sommario, che dice minimo, massimo, la media e la deviazione standard
 #[SPIEGAZIONE] Ho creato una lista con i 20 valori da analizzare e un dizionario che contiene le coppie-valori che devono essere ritornati dalla funzione
 #minimo e massimo sono inizializzati con il primo valore della lista così da non essere falsati da un valore di default come 0
