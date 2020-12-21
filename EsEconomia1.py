@@ -1,4 +1,5 @@
-#Scrivere una funzione ricorsiva che si aspetta una lista di 20 numeri come argomento.
+#[AUTHOR]Serena D'Urso
+#[TRACCIA]Scrivere una funzione ricorsiva che si aspetta una lista di 20 numeri come argomento.
 #Se la lista si compone di un solo argomento, restituisce il valore.
 #Diversamente, confronta il valore della testa della lista con il valore ottenuto, dalla ricorsione, restituendo il più piccolo tra i due.
 #Stampare a video il valore così ottenuto.
