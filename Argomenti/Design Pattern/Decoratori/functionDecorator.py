@@ -1,6 +1,5 @@
 import functools
 
-
 # prima versione, senza doc e __name__ settato a wrapper
 def float_args_and_return(function):
     def wrapper(*args, **kwargs):

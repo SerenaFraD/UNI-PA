@@ -14,7 +14,7 @@ class Synthesizer:
         self.name = name
 
     def __str__(self):
-        return 'the  {} synthesizer'.format(self.name)
+        return 'the {} synthesizer'.format(self.name)
 
     def play(self):
         return 'is playing an electronic song'
@@ -38,6 +38,7 @@ class Adapter:
 
     def __str__(self):
         return str(self.obj)
+
 
 def main():
     objects = [Computer('Asus')]
