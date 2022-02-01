@@ -12,7 +12,7 @@ def decorator(Classe):
     Classe.g = ClasseBase.g
 
     return Classe
-    
+
 
 class ClasseBase:
     varC = 1000
@@ -21,12 +21,11 @@ class ClasseBase:
         self.varl = 10
 
     def f(self, v):
-        print(v*self.varl)
+        print(v * self.varl)
 
     @staticmethod
     def g(x):
-        print(ClasseBase.varC*x)
-
+        print(ClasseBase.varC * x)
 
 
 @decorator

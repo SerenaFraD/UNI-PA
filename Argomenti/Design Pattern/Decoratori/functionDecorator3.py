@@ -8,14 +8,15 @@ from functools import wraps
 def decora(funzione):
     @wraps(funzione)
     def wrapper(lista):
-       tmp = [int(lista[i]) for i in range(0, len(lista)) if isinstance(lista[i], (str, int, float))]
-       return sum(tmp)
-       
-    return wrapper 
+        tmp = [int(lista[i]) for i in range(0, len(lista)) if isinstance(lista[i], (str, int, float))]
+        return sum(tmp)
+
+    return wrapper
 
 
 def somma1(*args, **kwargs):
     return sum(args) + sum(kwargs.values())
+
 
 @decora
 def somma(*args, **kwargs):

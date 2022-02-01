@@ -1,6 +1,5 @@
 import numbers
 
-
 # è un factory function che restituisce una funzione
 def is_in_range(minimum=None, maximum=None):
     assert minimum is not None or maximum is not None
