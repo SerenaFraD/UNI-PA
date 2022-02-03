@@ -4,14 +4,14 @@
 # dell’istanza per cui è invocato
 
 # factory che accetta parametri
-def factory(type):
+def factory(tipo):
     # vero decoratore
     def decoratore(Classe):
         def countVarOfType(self):
             number = 0
 
             for key, value in Classe.__dict__.items():
-                if isinstance(value, type) and key != '__module__':
+                if isinstance(value, tipo) and key != '__module__':
                     number += 1
             return number
 
