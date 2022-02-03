@@ -15,6 +15,16 @@ Serena D'Urso  | 0512105709
 4. Adapter
 5. Proxy
 6. Chain of Responsability
+7. Generatori
+8. State
+9. Mediator
+10. Observer
+11. Prototype
+12. Flyweight
+13. Facade
+14. Template Method
+15. Factory Method
+16. Concorrenza
 
 
 ***
