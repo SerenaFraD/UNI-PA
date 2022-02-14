@@ -4,7 +4,6 @@
 
 from functools import wraps
 
-
 def decora(funzione):
     @wraps(funzione)
     def wrapper(lista):
@@ -24,4 +23,4 @@ def somma(*args, **kwargs):
 
 
 print("Non decorata ", somma1(3.5, 6, 1.2))
-print("Decorata ", somma([1.3, 4, "6", "9"]))
+print("Decorata ", somma([1.5, 4.5, 1, "6", "10"]))

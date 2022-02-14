@@ -1,27 +1,25 @@
-def count(aClass):
-    aClass.numInstances = 0
-    return aClass
+# Definire un decoratore di classe che permette alla classe decorata di
+# contare le sue istanze.
+def conta(cls):
+    cls.istanze = 0
 
+    return cls
 
-@count
-class Spam:
+@conta
+class Classe:
     def __init__(self):
-        Spam.numInstances = Spam.numInstances + 1
+        Classe.istanze += 1
+
+@conta
+class Classe2(Classe):
+    def __init__(self):
+        Classe2.istanze += 1
 
 
-class Sub(Spam):
-    pass
-
-
-class Other(Spam):
-    pass
-
-
-#Prova
-spam = Spam()
-sub = Sub()
-other = Other()
-
-print(spam.numInstances)
-print(sub.numInstances)
-print(other.numInstances)
+c = Classe()
+d = Classe()
+e = Classe2()
+f = Classe2()
+g = Classe2()
+print(Classe.istanze)
+print(Classe2.istanze)

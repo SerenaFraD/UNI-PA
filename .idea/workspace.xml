@@ -35,8 +35,8 @@
       <recent name="C:\Users\Serena D'Urso\Desktop\UNI-PA\Argomenti\Design Pattern\Decoratori" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.esercizio4">
-    <configuration name="esercizio2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.esercizio11_2">
+    <configuration name="esercizio11_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UNI-PA" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -44,11 +44,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/esame_12_01_2022" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EserciziP" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/esame_12_01_2022/esercizio2.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Serena D'Urso\Desktop\UNI-PA\EserciziP\esercizio11_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -57,7 +57,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="esercizio2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="esercizio11_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UNI-PA" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -65,11 +65,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/esame_18_02_2020" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EserciziP" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/esame_18_02_2020/esercizio2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EserciziP/esercizio11_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -78,7 +78,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="esercizio3 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="esercizio7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UNI-PA" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -86,11 +86,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/esame_18_02_2020" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EserciziP" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/esame_18_02_2020/esercizio3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EserciziP/esercizio7.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -99,7 +99,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="esercizio3 (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="esercizio8" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UNI-PA" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -107,11 +107,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/esame_22_12_2020" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EserciziP" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/esame_22_12_2020/esercizio3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EserciziP/esercizio8.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -120,7 +120,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="esercizio4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="esercizio9" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UNI-PA" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -128,11 +128,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Argomenti/Design Pattern/Generatori" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EserciziP" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Argomenti/Design Pattern/Generatori/esercizio4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EserciziP/esercizio9.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.esercizio4" />
-        <item itemvalue="Python.esercizio3 (2)" />
-        <item itemvalue="Python.esercizio3 (1)" />
-        <item itemvalue="Python.esercizio2" />
-        <item itemvalue="Python.esercizio2 (1)" />
+        <item itemvalue="Python.esercizio11_2" />
+        <item itemvalue="Python.esercizio11_1" />
+        <item itemvalue="Python.esercizio8" />
+        <item itemvalue="Python.esercizio9" />
+        <item itemvalue="Python.esercizio7" />
       </list>
     </recent_temporary>
   </component>
@@ -167,32 +167,32 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/esame_12_01_2022/esercizio1.py</url>
-          <line>48</line>
+          <line>37</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/esame_12_01_2022/esercizio1.py</url>
-          <line>78</line>
+          <line>67</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/esame_12_01_2022/esercizio1.py</url>
-          <line>85</line>
+          <line>74</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/esame_12_01_2022/esercizio1.py</url>
-          <line>107</line>
+          <line>96</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/esame_12_01_2022/esercizio1.py</url>
-          <line>121</line>
+          <line>110</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/esame_12_01_2022/esercizio1.py</url>
-          <line>128</line>
+          <line>117</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>

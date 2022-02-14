@@ -1,23 +1,14 @@
 class C:
     @classmethod
     def aggiungiProprieta(cls):
-        items = cls.__dict__.copy()
-
-        for key, value in items.items():
-            if isinstance(value, str) and not value.startswith("__"):
-                privateName = "_" + key
-                setattr(cls, privateName, value)
-
-                def getter(self):
-                    return getattr(cls, privateName)
-
-                def setter(self, val):
-                    if isinstance(val, str):
-                        setattr(cls, privateName, val)
-                    else:
-                        raise TypeError("Non e`possibile assegnare {} alla variabile {}".format(val, key))
-
-                setattr(cls, key, property(getter, setter, doc=None))
+        def setter(self, val):
+            if isinstance(val, str):
+                getattr(cls, self)
+                setattr(cls, privateName, val)
+                print(privateName)
+            else:
+                raise TypeError("Non e`possibile assegnare {} alla variabile {}".format(val, privateName))
+            setattr(cls, key, property(getter, setter, doc=None))
 
 
 C.x = 2
@@ -26,9 +17,7 @@ C.z = "b"
 C.w = (1, 2)
 
 C.aggiungiProprieta()
-
 c = C()
-
 print("c e` un'istanza della classe C che ha le variabili di classe x di tipo int,y e z di tipo str, e w di dipo tuple")
 try:
     c.z = "anna"
