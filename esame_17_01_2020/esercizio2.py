@@ -10,7 +10,6 @@ def defFact(L1: list, L2: list):
                 if L1[i] not in attributi:
                     setattr(self, L1[i], L2[i])
 
-            return None
         return wrapper
     return decorator
 

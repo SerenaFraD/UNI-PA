@@ -12,7 +12,7 @@ def decoratorFactory(t):
     return decoratoreDiClasse
 
 
-@decoratorFactory(float)
+@decoratorFactory(str)
 class C:
     def __init__(self):
         self.a = 1
@@ -20,6 +20,8 @@ class C:
         self.c = "casa"
         self.d = 4
         self.e = 5
+        self.f = 2.1
+        self.g = 2.1
 
 
 prova = C()

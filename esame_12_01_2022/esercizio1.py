@@ -1,14 +1,26 @@
 class C:
     @classmethod
     def aggiungiProprieta(cls):
-        def setter(self, val):
-            if isinstance(val, str):
-                getattr(cls, self)
-                setattr(cls, privateName, val)
-                print(privateName)
-            else:
-                raise TypeError("Non e`possibile assegnare {} alla variabile {}".format(val, privateName))
-            setattr(cls, key, property(getter, setter, doc=None))
+        for key, value in cls.__dict__.items():
+            if isinstance(value, str):
+
+                setattr(cls, key, makeproperty(key))
+
+
+def makeproperty(key):
+    privateName = "__" + key
+    # setattr(cls, privateName, value)
+
+    def getter(self):
+        return getattr(self, privateName)
+
+    def setter(self, val):
+        if isinstance(val, str):
+            setattr(self, privateName, val)
+        else:
+            raise TypeError("Non e`possibile assegnare {} alla variabile {}".format(val, key))
+
+    return property(getter, setter)
 
 
 C.x = 2

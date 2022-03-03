@@ -1,5 +1,6 @@
 def decFact(t):
     def decoratore(cls):
+        @staticmethod
         def riportaVariabiliDiClasse():
             attributes = [element for element in dir(cls) if not element.startswith("__")]
             classes = cls.__mro__
@@ -8,36 +9,36 @@ def decFact(t):
                     if element in classe.__dict__:
                         value = getattr(classe, element)
                         if isinstance(value, t):
-                            yield (element, value, classe.__name__)
+                            yield element, value, classe.__name__
 
         setattr(cls, "riportaVariabiliDiClasse", riportaVariabiliDiClasse)
         return cls
     return decoratore
 
-@decFact(int)
+@decFact(float)
 class A:
     aaa = 1
-    bbb = 2
-    ccc = 3
+    bbb = "buono"
+    ccc = 3.1
 
     def __init__(self):
         pass
 
-@decFact(int)
+@decFact(str)
 class B(A):
-    ddd = 4
+    ddd = 4.9
     eee = 5
-    fff = 6
+    fff = "pare che"
 
     def __init__(self):
         pass
 
 
-@decFact(int)
+@decFact(float)
 class C(B):
     ggg = 7
-    hhh = 8
-    iii = 9
+    hhh = 8.1
+    iii = "funzioni"
 
     def __init__(self):
         pass
