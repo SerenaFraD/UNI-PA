@@ -83,7 +83,6 @@ class Observed:
 
 
 class Mydict(dict):
-
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.full = False

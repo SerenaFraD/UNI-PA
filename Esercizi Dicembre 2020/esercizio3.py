@@ -16,9 +16,6 @@ class Singleton:
     __instance = None
 
 
-
-
-
 if __name__ == "__main__":
     s = Singleton()
     s.nome = "pincopallino"
