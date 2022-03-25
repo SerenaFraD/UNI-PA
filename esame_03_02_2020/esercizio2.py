@@ -42,6 +42,22 @@ def gestore_str(ricevitore, successore):
             successore.send(oggetto)
 
 @coroutine
+def gestore_tuple(successore):
+    while True:
+        oggetto = (yield)
+        if isinstance(oggetto, tuple):
+            if isinstance(oggetto[0], IDoNothing):
+                idn = IDoNothing(oggetto[1:])
+                print("Richiesta gestita da gestore_tuple: e` stata creata un’istanza della classe {} con i seguenti attributi {}".format(idn, idn.__dict__))
+            else:
+                print("Richiesta gestita da gestore_tuple: istanza non creata perche’ il primo elemento della tupla non e` una classe definita nel modulo esercizio2.py")
+            #ricevitore.send(oggetto)
+            #ricevitore.send("file_str")
+        elif successore is not None:
+            successore.send(oggetto)
+
+
+@coroutine
 def gestoreDiDefault(successore=None):
     while True:
         oggetto = (yield)
@@ -49,9 +65,15 @@ def gestoreDiDefault(successore=None):
         if successore is not None:
             successore.send(oggetto)
 
+class IDoNothing:
+    def __init__(self, something):
+        print("Hi")
+        print(something)
+
+
 class Client:
     def __init__(self):
-        self.handler = gestore_int(writeInFile(), gestore_str(writeInFile(), gestoreDiDefault(None)))
+        self.handler = gestore_int(writeInFile(), gestore_str(writeInFile(), gestoreDiDefault(gestore_tuple(None))))
 
     def entrust(self, objects):
         for o in objects:
@@ -64,5 +86,5 @@ class Client:
 
 
 client = Client()
-parole = ["ciao", 123456, "ma non", 987654]
+parole = ["ciao", 123456, "ma non", 987654, ("aa", "bbb", 123)]
 client.entrust(parole)
